@@ -13,7 +13,7 @@ require_relative './puzzler'
 cache = Dalli::Client.new
 
 get '/' do
-  "Nothing to see here, move along folks"
+  "Nothing to see here, move along folks."
 end
 
 get '/puzzle.json' do
